@@ -1,9 +1,14 @@
 import Vue from "vue";
 import BaseButton from "./BaseButton.vue";
+import BaseBanner from "./BaseBanner.vue";
+import BaseInput from "./BaseInput.vue";
 
 
 const Components = {
-    BaseButton
+    BaseButton,
+    BaseBanner, 
+    BaseInput,
+
 };
 
 Object.keys(Components).forEach(name => {
